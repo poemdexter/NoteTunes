@@ -12,6 +12,7 @@
 <div data-role="page" id="p1" data-theme="b"> 
     <div  data-role="header"><h1>NotetuneS</h1></div>
     <div  data-role="content">
+    <img src="../resources/img/NTHeaderSmallVersion2.png" style="display: block; margin-left: auto; margin-right: auto;" />
     <label for="Username" class="ui-hidden-accessible"></label>
     <input type="text" name="Username" id="Username" value="" placeholder="Username"  />
     <label for="Password" class="ui-hidden-accessible"></label>
