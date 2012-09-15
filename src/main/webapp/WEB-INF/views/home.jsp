@@ -15,7 +15,7 @@
     <label for="Username" class="ui-hidden-accessible"></label>
     <input type="text" name="Username" id="Username" value="" placeholder="Username"  />
     <label for="Password" class="ui-hidden-accessible"></label>
-    <input type="text" name="Password" id="Password" value="" placeholder="Password"  />
+    <input type="password" name="Password" id="Password" value="" placeholder="Password"  />
     <a href="/compose" data-role="button">Login</a>
     </div> 
     <div  data-role="footer"><h4>Footer</h4></div> 
