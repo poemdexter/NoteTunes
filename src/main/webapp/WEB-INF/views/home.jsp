@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <title>Notetunes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" type="text/css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 </head>
 <body>
 <div data-role="page" id="p1"> 
@@ -22,7 +22,8 @@
     </div> 
     <div  data-role="footer"><h4>Footer</h4></div> 
 </div>
-<script type="text/javascript" src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 </body>
 </html>
 
