@@ -5,7 +5,6 @@
 <head>
 <title>Notetunes</title>
 <link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" type="text/css" />
-<import 
 </head>
 <body>
 <div data-role="page" id="p1"> 
