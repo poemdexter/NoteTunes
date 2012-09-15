@@ -79,9 +79,9 @@ $(document).ready(function() {
     function highlightWords(paragraph, waitTime) {
         paragraph.children().each(function(i) {
             $(this).show().delay(waitTime * 1000 * i).queue(function(n) {
-                $(this).highlight(this); n();
+                $(this).hide(); n();
             }).delay(waitTime * 1000).queue(function(n) {
-                $(this).unhighlight(); n();
+                $(this).show(); n();
             })
         }); 
     }      
