@@ -31,8 +31,6 @@
 <script>
 $(document).ready(function() {
 	
-	$(".highlight").css({ backgroundColor: "#FFFF88" });
-	
     var p1Count = $('.p1').text().split(' ').length;
     var p1WaitTime = Math.ceil(5 / p1Count);
     var p2Count = $('.p2').text().split(' ').length;
@@ -78,10 +76,10 @@ $(document).ready(function() {
     
     function highlightWords(paragraph, waitTime) {
         paragraph.children().each(function(i) {
-            $(this).css('background-color', '#d5d8e1').delay(waitTime * 1000 * i).queue(function(n) {
+            $(this).css('background-color', '#D7D7D7').delay(waitTime * 1000 * i).queue(function(n) {
                 $(this).css('background-color', '#a2aed8'); n();
             }).delay(waitTime * 1000).queue(function(n) {
-                $(this).css('background-color', '#d5d8e1'); n();
+                $(this).css('background-color', '#D7D7D7'); n();
             })
         }); 
     }      
