@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>Notetunes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../resources/css/custom-mobile-theme.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 </head>
 <body>
 <div data-role="page" id="p3" data-theme="b">
@@ -78,7 +78,7 @@ $(document).ready(function() {
     
     function highlightWords(paragraph, waitTime) {
         paragraph.children().each(function(i) {
-            $(this) $(this).css('background-color', '#d5d8e1'); n();.delay(waitTime * 1000 * i).queue(function(n) {
+            $(this).css('background-color', '#d5d8e1').delay(waitTime * 1000 * i).queue(function(n) {
                 $(this).css('background-color', '#a2aed8'); n();
             }).delay(waitTime * 1000).queue(function(n) {
                 $(this).css('background-color', '#d5d8e1'); n();

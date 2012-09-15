@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <title>Notetunes</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../resources/css/custom-mobile-theme.min.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 </head>
 <body>
 <div data-role="page" id="p2" data-theme="b">
