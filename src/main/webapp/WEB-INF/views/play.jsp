@@ -30,16 +30,10 @@
 </div> 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-
+<script src="../resources/js/jquery.highlight.js"></script>
 <script>
 
 $(document).ready(function() {
-	
-	function playSound()
-	{
-		soundHandle = document.getElementById("tune");
-		soundHandle.play();
-	};
 	
     var p1Count = $('.p1').text().split(' ').length;
     var p1WaitTime = Math.ceil(5 / p1Count);
