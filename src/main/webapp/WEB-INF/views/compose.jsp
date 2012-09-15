@@ -11,24 +11,21 @@
 <div data-role="page" id="p2">
     <div  data-role="header" data-rel="back"><h1>Header Page 2</h1></div>
     <div  data-role="content">
-        <p>Compose a song.</p>
-   <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
-    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
-        <br />
-         <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
-    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
-        <br />
-         <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
-    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
-        <br />
-         <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
-    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
-        <br />
+	    <p>Compose a song.</p>
+	   	<label for="Inbut lyrics" class="ui-hidden-accessible"></label>
+	    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
+	
+	    <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
+	    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
+	    
+	    <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
+	    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
+	 
+	    <label for="Inbut lyrics" class="ui-hidden-accessible"></label>
+	    <input type="text" name="Input lyrics" id="Input lyrics" value="" placeholder="Input lyrics"  />
+	    <a href="/play" data-role="button">Play Song</a>
     </div>
-     <div  data-role="content">
-        <a href="/play" data-role="button">Play Song</a>
-    </div> 
-    <div  data-role="footer"><h4>Footer</h4></div>
+    <div data-role="footer"><h4>Footer</h4></div>
 </div>
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>

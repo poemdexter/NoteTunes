@@ -11,14 +11,12 @@
 <body>
 <div data-role="page" id="p1"> 
     <div  data-role="header"><h1>NotetuneS</h1></div>
+    <div  data-role="content">
     <label for="Username" class="ui-hidden-accessible"></label>
     <input type="text" name="Username" id="Username" value="" placeholder="Username"  />
-    <br /><br />
     <label for="Password" class="ui-hidden-accessible"></label>
     <input type="text" name="Password" id="Password" value="" placeholder="Password"  />
-    
-    <div  data-role="content">
-        <a href="/compose" data-role="button">Login</a>
+    <a href="/compose" data-role="button">Login</a>
     </div> 
     <div  data-role="footer"><h4>Footer</h4></div> 
 </div>
