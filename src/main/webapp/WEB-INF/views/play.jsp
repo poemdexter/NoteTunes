@@ -11,11 +11,15 @@
 <div data-role="page" id="p3" data-theme="b">
     <div  data-role="header" data-rel="back"><h1>Header Page 3</h1></div>
     <div  data-role="content">
-      	<audio controls="controls" >
-			<source src="resources/audio/happyBirth01.ogg" controls />
-	    	<source src="resources/audio/happyBirth01.mp3" controls />
+    
+    	<a data-role="button" onclick="playSound()">Play</a>
+      	<audio preload="auto" id="tune" >
+			<source src="resources/audio/happyBirth01.ogg" type="audio/ogg"/>
+	    	<source src="resources/audio/happyBirth01.mp3" type="audio/mp3" />
 	          Your browser does not support the audio element.
     	</audio>
+    	
+    	
         <p class="p1">Sedimentary Rocks</p>
         <p class="p2">Change with pressure and heat</p>
         <p class="p3">Becoming metamorphic</p>
@@ -26,9 +30,15 @@
 </div> 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
-<script src="../resources/js/jquery.highlight.js"></script>
 
 <script>
+
+function playSound()
+{
+	soundHandle = document.getElementById("tune");
+	soundHandle.play();
+}
+
 $(document).ready(function() {
 	
     var p1Count = $('.p1').text().split(' ').length;
