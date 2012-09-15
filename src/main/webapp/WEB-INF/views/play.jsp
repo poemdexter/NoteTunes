@@ -33,13 +33,13 @@
 
 <script>
 
-function playSound()
-{
-	soundHandle = document.getElementById("tune");
-	soundHandle.play();
-}
-
 $(document).ready(function() {
+	
+	function playSound()
+	{
+		soundHandle = document.getElementById("tune");
+		soundHandle.play();
+	};
 	
     var p1Count = $('.p1').text().split(' ').length;
     var p1WaitTime = Math.ceil(5 / p1Count);
