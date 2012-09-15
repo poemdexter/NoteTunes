@@ -20,10 +20,20 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Model model) {
-		logger.info("Welcome home!");
-		model.addAttribute("controllerMessage", "This is the message from the controller!");
+		//model.addAttribute("controllerMessage", "This is the message from the controller!");
 		return "home";
 	}
+	
+	@RequestMapping(value = "/compose", method = RequestMethod.GET)
+	public String compose(Model model) {
+		return "compose";
+	}
+	
+	@RequestMapping(value = "/play", method = RequestMethod.GET)
+	public String play(Model model) {
+		return "play";
+	}
+	
 	
 
 }

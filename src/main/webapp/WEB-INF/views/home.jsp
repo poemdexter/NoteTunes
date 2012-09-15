@@ -1,6 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -18,14 +17,8 @@
     <label for="Password" class="ui-hidden-accessible"></label>
     <input type="text" name="Password" id="Password" value="" placeholder="Password"  />
     
-    <audio controls="controls" >
-	<source src="resources/audio/happyBirth01.ogg" controls />
-    <source src="resources/audio/happyBirth01.mp3" controls />
-          Your browser does not support the audio element.
-    </audio>
-    
     <div  data-role="content">
-        <a href="#p2" data-role="button">Login</a>
+        <a href="/compose" data-role="button">Login</a>
     </div> 
     <div  data-role="footer"><h4>Footer</h4></div> 
 </div>
@@ -35,6 +28,14 @@
 </html>
 
 <%-- <html>
+
+	*** AUDIO ***
+    <audio controls="controls" >
+	<source src="resources/audio/happyBirth01.ogg" controls />
+    <source src="resources/audio/happyBirth01.mp3" controls />
+          Your browser does not support the audio element.
+    </audio>
+
 <head>
 	<title>Notetunes</title>
 </head>
