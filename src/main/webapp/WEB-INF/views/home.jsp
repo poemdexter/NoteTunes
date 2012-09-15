@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="../resources/css/custom-mobile-theme.min.css" />
 </head>
 <body>
-<div data-role="page" id="p1"> 
+<div data-role="page" id="p1" data-theme="b"> 
     <div  data-role="header"><h1>NotetuneS</h1></div>
     <div  data-role="content">
     <label for="Username" class="ui-hidden-accessible"></label>
@@ -24,26 +24,3 @@
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 </body>
 </html>
-
-<%-- <html>
-
-	*** AUDIO ***
-    <audio controls="controls" >
-	<source src="resources/audio/happyBirth01.ogg" controls />
-    <source src="resources/audio/happyBirth01.mp3" controls />
-          Your browser does not support the audio element.
-    </audio>
-
-<head>
-	<title>Notetunes</title>
-</head>
-<body>
-<h1>
-	Hello world! - 
-</h1>
-${controllerMessage}<br/>
-<br/>
-<br/>
-<a href="person/list">Go to the person list</a>
-</body>
-</html> --%>

@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../resources/css/custom-mobile-theme.min.css" />
 </head>
 <body>
-<div data-role="page" id="p2">
+<div data-role="page" id="p2" data-theme="b">
     <div  data-role="header" data-rel="back"><h1>Header Page 2</h1></div>
     <div  data-role="content">
 	    <p>Compose a song.</p>

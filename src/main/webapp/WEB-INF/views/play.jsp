@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../resources/css/custom-mobile-theme.min.css" />
 </head>
 <body>
-<div data-role="page" id="p3">
+<div data-role="page" id="p3" data-theme="b">
     <div  data-role="header" data-rel="back"><h1>Header Page 3</h1></div>
     <div  data-role="content">
       	<audio controls="controls" >
@@ -79,7 +79,7 @@ $(document).ready(function() {
     function highlightWords(paragraph, waitTime) {
         paragraph.children().each(function(i) {
             $(this) $(this).css('background-color', '#d5d8e1'); n();.delay(waitTime * 1000 * i).queue(function(n) {
-                $(this). $(this).css('background-color', '#a2aed8'); n();; n();
+                $(this).css('background-color', '#a2aed8'); n();
             }).delay(waitTime * 1000).queue(function(n) {
                 $(this).css('background-color', '#d5d8e1'); n();
             })
