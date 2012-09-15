@@ -4,7 +4,7 @@
 <html>
 <head>
 <title>Notetunes</title>
-<link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" TYPE="text/css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" type="text/css" />
 <import 
 </head>
 <body>
