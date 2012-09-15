@@ -19,8 +19,8 @@
     <input type="text" name="Password" id="Password" value="" placeholder="Password"  />
     
     <audio controls="controls" >
-	<source src="audio/happyBirth01.ogg" type="audio/ogg" />
-    <source src="audio/happyBirth01.mp3" type="audio/mp3" />
+	<source src="../audio/happyBirth01.ogg" type="audio/ogg" />
+    <source src="../audio/happyBirth01.mp3" type="audio/mp3" />
           Your browser does not support the audio element.
     </audio>
     
