@@ -22,7 +22,7 @@
         <p class="p4">Melting into magma</p>
         <a href="/compose" data-role="button">Compose Another Song</a>
     </div>
-    <div  data-role="footer"><h4>Footer</h4></div>
+    <div  data-role="footer"><h4>AT&amp;T Hackathon 2012</h4></div>
 </div> 
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
